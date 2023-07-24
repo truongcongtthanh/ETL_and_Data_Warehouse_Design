@@ -1,5 +1,10 @@
 ## ETL_and_Data_Warehouse_Design
 ## --------------------------------------
+- ETL.ipynb is main process
+- csv files are data sources
+- create_table.sql used to create tables of data warehouse in ETL.ipynb
+- dataqualitychecks.py and mytests.py used to run data quality check and create report in ETL.ipynb
+## --------------------------------------
 #### I. Extract and transform airport data
 ###### 1. Drop columns: continent, gps_code, iata_code, local_code
 ###### 2. Handle null value for columns: iso_country, elevation_tf, municipality
